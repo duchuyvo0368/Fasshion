@@ -1,0 +1,21 @@
+.list-category{
+    
+    .header{
+        font-size: 1.5rem;
+        color: #333;
+        font-weight: 600;
+        margin-top: 85px;
+    }
+    li{
+        margin-bottom: 5px;
+
+        a{
+            color: #333;
+            &:hover{
+                cursor: pointer;
+                color: #ee4d3a;
+            }
+        }
+      
+    }
+}

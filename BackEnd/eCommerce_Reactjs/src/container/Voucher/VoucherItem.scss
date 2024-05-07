@@ -1,0 +1,93 @@
+.box-voucher{
+    color: rgb(238, 77, 45);
+   
+    border: 1px solid #c4c4c4;
+    border-left: 0;
+    border-radius: 2px;
+    background-clip: padding-box;
+    background: repeating-linear-gradient(#c4c4c4,#c4c4c4 10px,transparent 0,transparent 30px,#c4c4c4 0,#c4c4c4 42px) 0/1px 100% no-repeat,radial-gradient(circle at 0 20px,transparent,transparent 10px,#c4c4c4 0,#c4c4c4 11px,currentColor 0) 1px 0/100% 42px repeat-y;
+    display: flex;
+   
+    .content-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 180px;
+        justify-content: center;
+        margin: -29px 0 0 20px;
+        img{
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        span{
+            color: #fff;
+            font-size: 22px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+    .border-center{
+        min-width: 1px;
+        background: repeating-linear-gradient(#e5e5e5,#e5e5e5 5px,transparent 0,transparent 10px);
+    }
+    .content-right{
+        background-color: #fff;
+        width: 370px;
+       
+        .box-content-right{
+            display: flex;
+            flex-direction: column;
+            margin: 30px 20px;
+            .name-voucher{
+                color: #212121;
+                font-size: 2.25rem;
+               
+            }
+            .max-value-voucher{
+                color:  #595959;
+                font-size: 1.5rem;
+            }
+            .box-percent{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+               
+                .wrap-percent{
+                    height: 0.9375rem;
+                    border-radius: 2.5rem;
+                    width: 150px;
+                    background: rgba(0,0,0,.09);
+                    overflow: hidden;
+                    .percent{
+                        
+                        height: 100%;
+                        background: linear-gradient(270deg, rgb(238, 77, 45) 0%, rgb(238, 77, 45) 100%);
+                        
+                    }
+                }
+                .used-percent{
+                    color: rgb(255, 66, 79);
+                    font-size: 1.55rem;
+                    margin-left: 0.5rem;
+                    line-height: 1.5rem;
+                }
+            }
+            .btn-voucher{
+                border:0;
+                outline: none;
+                height: 4.8125rem;
+                border-radius: .375rem;
+                background-color: rgb(238, 77, 45);
+                font-size: 2rem;
+                color: #fff;
+                margin-top: 30px;
+
+                &:hover{
+                    background-color: #da492c;
+                }
+            }
+        }
+        
+    }
+}

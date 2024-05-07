@@ -1,0 +1,49 @@
+{
+  "name": "ecomapi",
+  "version": "1.0.0",
+  "description": "backend nodejs ecom",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ./node_modules/.bin/babel-node src/server.js"
+  },
+  "keywords": [
+    "fullstack",
+    "ecom"
+  ],
+  "author": "bingo2706",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "dateformat": "^2.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "js-recommender": "^1.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "md5": "^2.2.1",
+    "moment": "^2.29.3",
+    "morgan": "~1.8.1",
+    "mysql2": "^2.2.5",
+    "node-fetch": "^2.6.1",
+    "nodemailer": "^6.6.3",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "paypal-rest-sdk": "^1.8.1",
+    "qs": "^6.7.0",
+    "sequelize": "^6.6.2",
+    "sha256": "^0.2.0",
+    "socket.io": "^4.5.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.10",
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  }
+}

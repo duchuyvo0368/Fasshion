@@ -1,0 +1,83 @@
+.box-shopcart-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    .content-right{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .wrap-price{
+
+            .text-total{
+                font-size: 19px;
+                
+            }
+            .text-price{
+                color: #71cd14;
+                font-size: 26px;
+              
+            }
+        }
+    }
+    .content-left{
+     
+        .wrap-voucher{
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-left: 10px;
+            .name-easier{
+                margin-left: 10px;
+                font-size: 16px;
+            }
+
+            .choose-voucher{
+                margin-left: 60px;
+                font-size: 16px;
+                color: #0c56be;
+                font-weight: 500;
+                cursor: pointer;
+            }
+        }
+        .wrap-note{
+            padding: 10px 38px;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-top: 20px;
+            
+            input{
+               
+               outline: none;
+               border: 1px solid rgba(216, 215, 215, 0.815);
+               background-color: transparent;
+               padding: 4px 12px;
+               font-size: 14px;
+               width: 300px;
+               
+            }
+         
+        }
+    }
+}
+.box-shipping{
+    border-bottom: 2px solid #dededf;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+   display: flex;
+   justify-content: space-between;
+   margin-left: 10px;
+
+  
+}
+.link-delete{
+    text-align: center;
+    cursor: pointer;
+
+    &:hover{
+        color: #71cd14;
+    }
+}

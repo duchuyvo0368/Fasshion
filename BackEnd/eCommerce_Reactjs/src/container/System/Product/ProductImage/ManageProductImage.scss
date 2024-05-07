@@ -1,0 +1,17 @@
+.box-image{
+    background: no-repeat center center;
+    background-size: cover;
+    width: 100px;
+    
+    height: 40px;
+}
+.img-review{
+    background: no-repeat center center;
+    background-size: cover;
+    width: 200px;
+    cursor: pointer;
+    height: 100px;
+}
+.ReactModal__Overlay{
+    z-index: 2000 !important;
+}

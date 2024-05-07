@@ -1,0 +1,16 @@
+.home_banner_area{
+    min-height: 500px !important;
+    .box-banner{
+        background: no-repeat center center;
+        background-size: cover;
+        height: 600px;
+
+        .banner_inner{
+            min-height: 500px !important;
+        }
+    }
+
+}
+body{
+    overflow-x: hidden;
+}
