@@ -8,22 +8,9 @@
         .remede {
             width: 300px;
             height: 400px;
-            border: 1px solid #000;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: auto;
-            background-color: #f0f0f0;
-            overflow: hidden; /* Để đảm bảo hình ảnh không tràn ra ngoài */
+           
         }
-        .remede img {
-            max-width: 100%;
-            max-height: 100%;
-            object-fit: cover; /* Đảm bảo hình ảnh phù hợp với kích thước của div */
-        }
-        .content {
-            text-align: center;
-        }
+    
     </style>
 </head>
 <body>
