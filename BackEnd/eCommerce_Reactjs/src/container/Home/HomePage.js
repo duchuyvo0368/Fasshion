@@ -96,8 +96,15 @@ function HomePage(props) {
             <MainFeature></MainFeature>
             <ProductFeature title={"Gợi ý sản phẩm"} data={dataProductRecommend}></ProductFeature>
             <ProductFeature title={"Sản phẩm đặc trưng"} data={dataProductFeature}></ProductFeature>
-            <NewProductFeature title="Sản phẩm mới" description="Những sản phẩm vừa ra mắt mới lạ cuốn hút người xem" data={dataNewProductFeature}></NewProductFeature>
-            <HomeBlog data={dataNewBlog} />
+            <NewProductFeature title="Sản phẩm mới" description="Những sản phẩm vừa ra mắt mới lạ cuốn hút người xem"
+                               data={dataNewProductFeature}></NewProductFeature>
+            <HomeBlog data={dataNewBlog}/>
+            <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+            <df-messenger
+                chat-title="ChatBotBanHang"
+                agent-id="605005d5-7ee5-4ce4-8bac-165a937c20c0"
+                language-code="en"
+            ></df-messenger>
         </div>
     );
 }

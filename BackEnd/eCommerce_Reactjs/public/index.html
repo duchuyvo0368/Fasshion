@@ -32,7 +32,14 @@
 
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
-  <div id="root"></div>
+  <div id="root">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+            chat-title="ChatBotBanHang"
+            agent-id="605005d5-7ee5-4ce4-8bac-165a937c20c0"
+            language-code="en"
+    ></df-messenger>
+  </div>
   <script src="%PUBLIC_URL%/resources/js/jquery-3.2.1.min.js"></script>
   <script src="%PUBLIC_URL%/resources/js/popper.js"></script>
   <script src="%PUBLIC_URL%/resources/js/bootstrap.min.js"></script>
