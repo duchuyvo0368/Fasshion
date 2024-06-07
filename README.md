@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping Website</title>
+    <h1>Shopping Website</h1>
 </head>
 <body>
     <div class="remede">
