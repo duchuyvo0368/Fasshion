@@ -25,7 +25,7 @@
           <img src="https://github.com/duchuyvo0368/shopping_website/blob/master/demo/9.png" alt="Mô tả hình ảnh">
         </div>
         <div>
-            <a href="https://www.python.org/">Flask</a>
+            <a href="https://flask.palletsprojects.com/">Flask</a>
             <a href="https://nodejs.org/en">Nodejs</a>
             <a href="https://www.mysql.com/">MySql</a>
             <a href="https://react.dev/">Reactjs</a>
