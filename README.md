@@ -25,10 +25,10 @@
           <img src="https://github.com/duchuyvo0368/shopping_website/blob/master/demo/9.png" alt="Mô tả hình ảnh">
         </div>
         <div>
-            <h1>Flask</h1>
-            <h1>Nodejs</h1>
-            <h1>MySql</h1>
-            <h1>Reactjs</h1>
+            <a href="https://www.python.org/">Flask</a>
+            <a href="https://nodejs.org/en">Nodejs</a>
+            <a href="https://www.mysql.com/">MySql</a>
+            <a href="https://react.dev/">Reactjs</a>
         </div>
     </div>
 </body>
