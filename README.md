@@ -27,10 +27,41 @@ The frontend is developed using **React.js** to ensure a smooth and interactive 
 
 ## Screenshots
 
-![Product Recommendations](https://github.com/duchuyvo0368/shopping_website/blob/master/demo/route_recommendation.png)
-![Product Page](https://github.com/duchuyvo0368/shopping_website/blob/master/demo/route_product.png)
-![Toxic Comment Detection](https://github.com/duchuyvo0368/shopping_website/blob/master/demo/recommendation.png)
-![AI Chatbot](https://github.com/duchuyvo0368/shopping_website/blob/master/demo/chat.png)
+### Homepage
+![Homepage](https://github.com/duchuyvo0368/Fasshion/blob/master/demo/1.png)
+
+### Product List
+![Product List](https://github.com/duchuyvo0368/Fasshion/blob/master/demo/2.png)
+
+### Product Details
+![Product Details](https://github.com/duchuyvo0368/Fasshion/blob/master/demo/3.png)
+
+### Shopping Cart
+![Shopping Cart](https://github.com/duchuyvo0368/Fasshion/blob/master/demo/4.png)
+
+### Checkout
+![Checkout](https://github.com/duchuyvo0368/Fasshion/blob/master/demo/5.png)
+
+### Order Summary
+![Order Summary](https://github.com/duchuyvo0368/Fasshion/blob/master/demo/6.png)
+
+### User Profile
+![User Profile](https://github.com/duchuyvo0368/Fasshion/blob/master/demo/7.png)
+
+### Chat System
+![Chat System](https://github.com/duchuyvo0368/Fasshion/blob/master/demo/chat.png)
+
+### Recommendation System
+![Recommendation System](https://github.com/duchuyvo0368/Fasshion/blob/master/demo/recommendation.png)
+
+### Product Recommendations Route
+![Product Recommendations Route](https://github.com/duchuyvo0368/Fasshion/blob/master/demo/route_recommendation.png)
+
+### Product Route
+![Product Route](https://github.com/duchuyvo0368/Fasshion/blob/master/demo/route_product.png)
+
+### User Route
+![User Route](https://github.com/duchuyvo0368/Fasshion/blob/master/demo/router_user.png)
 
 ## Conclusion
 
